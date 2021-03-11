@@ -15,7 +15,6 @@ Warehouse-Rest-Api is a RESTful API made in **flask** to provide user a experien
   - Bifurcated into models, resources folder to improve the project structure and make it flawless.
   - Implemented using GET, POST, PUT and DELETE http request protocol.
 
-  `
 ![Screenshot (968)](https://user-images.githubusercontent.com/78041915/110780167-6a924280-828a-11eb-9a87-44f1a5041429.png)
 ![Screenshot (969)](https://user-images.githubusercontent.com/78041915/110780170-6bc36f80-828a-11eb-96f5-2dc248bacced.png)
 ![Screenshot (970)](https://user-images.githubusercontent.com/78041915/110780172-6c5c0600-828a-11eb-8489-0f00ed96a095.png)
@@ -33,7 +32,7 @@ Warehouse-Rest-Api is a RESTful API made in **flask** to provide user a experien
 ![Screenshot (981)](https://user-images.githubusercontent.com/78041915/110780203-71b95080-828a-11eb-8a78-4e7b62c6ffe2.png)
 ![Screenshot (982)](https://user-images.githubusercontent.com/78041915/110780205-7251e700-828a-11eb-8be6-9bbddef4f565.png)
 ![Screenshot (983)](https://user-images.githubusercontent.com/78041915/110780207-72ea7d80-828a-11eb-8033-049923d4cef0.png)
- `
+
 
 
 ## There is only one branch in this repository i.e `master`  branch
@@ -91,8 +90,10 @@ $ heroku create
 $ heroku addons:add heroku-postgresql:hobby-dev
 $ git push heroku master
 $ pip freeze > requirements.txt
+$ heroku run
 $ heroku open
 ```
+**Copy the URL and change the url in postman from local server url to the copied url and you will be good to go**
 Also, do not forget to set the project environment variables.
 
 You should have a Heroku account (if not, create one [here](https://www.heroku.com/)), and Heroku CLI installed for the commands to work (if not, installation instructions can be found [here](https://devcenter.heroku.com/articles/heroku-cli)).
