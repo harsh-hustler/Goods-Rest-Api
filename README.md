@@ -93,7 +93,8 @@ $ pip freeze > requirements.txt
 $ heroku run
 $ heroku open
 ```
-**Copy the URL and change the url in postman from local server url to the copied url and you will be good to go**
+**Copy the URL and change the url in postman from local server url to the copied url and you will be good to go.**
+
 Also, do not forget to set the project environment variables.
 
 You should have a Heroku account (if not, create one [here](https://www.heroku.com/)), and Heroku CLI installed for the commands to work (if not, installation instructions can be found [here](https://devcenter.heroku.com/articles/heroku-cli)).
