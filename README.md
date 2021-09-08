@@ -1,6 +1,6 @@
+# Warehouse-Rest-Api
+
 Warehouse-Rest-Api is a RESTful API made in **flask** to provide user a experience of how warehouse, inventory works.
-
-
 
 ![Screenshot (968)](https://user-images.githubusercontent.com/78041915/110780167-6a924280-828a-11eb-9a87-44f1a5041429.png)
 ![Screenshot (969)](https://user-images.githubusercontent.com/78041915/110780170-6bc36f80-828a-11eb-96f5-2dc248bacced.png)
